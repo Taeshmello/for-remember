@@ -1,0 +1,12 @@
+.result {
+  display: flex;
+}
+
+#title {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.description {
+  width: 900px;
+}

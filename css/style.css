@@ -1,0 +1,229 @@
+@font-face {
+  font-family: 'KCCAhnjunggeun';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCCAhnjunggeun.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Happy_dobi';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Happy_dobi.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  display: none;
+}
+
+.container1 {
+  height: 100vh;
+  background: url('../src/—Pngtree—red\ and\ blue\ gradient\ overprinted_5360525\ 1.png')
+    fixed;
+  background-size: cover;
+  display: none;
+  z-index: 999;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+
+.menuText {
+  font-size: 26px;
+  font-weight: 600;
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.wrap {
+  width: 800px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  right: 100px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.562);
+}
+.wrap a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  transition: 0.3s;
+}
+
+.input_box {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+#input {
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid #000;
+}
+
+.rememberKoreanWar {
+  padding: 100px;
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  top: 100px;
+}
+.koreanWarImg {
+  height: 300px;
+}
+
+.rememberKoreanWar > h1 {
+  font-size: 200px;
+  letter-spacing: 10px;
+  font-family: 'Happy_dobi';
+}
+
+.rememberKoreanWar > p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: 'KCCAhnjunggeun';
+}
+
+.container2 {
+  height: 650px;
+  background: url(../src/image\ 2.png);
+  display: none;
+  justify-content: end;
+  align-items: end;
+}
+
+.greantBg {
+  width: 518px;
+  height: 164px;
+  background-image: linear-gradient(
+    322deg,
+    #3d3d3d 6.25%,
+    rgba(61, 61, 61, 0.11) 94.79%,
+    rgba(61, 61, 61, 0.16) 99.99%,
+    rgba(61, 61, 61, 0) 100%
+  );
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.greantBg p {
+  color: #fff;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.greantBg button {
+  width: 138px;
+  height: 41px;
+  border: 3px solid #fff;
+  background: transparent;
+  color: #fff;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.red {
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: rgb(158, 26, 26);
+  padding: 5px 15px;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.TimeLineBox > a {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.greantBg button:hover {
+  cursor: pointer;
+  border: 0;
+  background: #fff;
+  color: #000;
+}
+
+.bg {
+  display: none;
+  box-sizing: border-box;
+  width: 100%;
+  height: 128px;
+  background: #232323;
+}
+.container3 {
+  display: none;
+  height: 641px;
+  background: url(../src/war-transformed\ 1.png) no-repeat;
+  justify-content: end;
+  align-items: end;
+  z-index: -1;
+}
+
+.foot {
+  display: flex;
+  background: #2c2a295d;
+  height: 70px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+/* 건들지 말 것!! */
